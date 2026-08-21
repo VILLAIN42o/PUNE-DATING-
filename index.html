@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pune Dating — 18+</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>💜 Pune Dating</h1><span>18+ Adults Only</span></header>
+<main>
+<section id="auth" class="card">
+<h2>Join Pune Dating</h2><p>Create a demo profile to explore.</p>
+<input id="name" placeholder="Your name"><input id="age" type="number" min="18" placeholder="Age (18+)">
+<input id="city" placeholder="City" value="Pune"><input id="interest" placeholder="Interests">
+<button onclick="join()">Create Profile</button><small>This is a local demo. No real accounts or messages are stored online.</small>
+</section>
+<section id="app" hidden>
+<div class="card"><h2 id="welcome"></h2><button class="secondary" onclick="logout()">Log out</button></div>
+<div id="profiles" class="grid"></div>
+<div class="card"><h2>💬 Matches & Chat</h2><div id="matches">Like someone to create a demo match.</div></div>
+</section>
+</main><footer>Use respectful communication. Block/report anyone behaving abusively.</footer>
+<script src="app.js"></script></body></html>
